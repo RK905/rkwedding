@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>168940638746-2op2hk1430cb34lai84dr6gj9a86aava.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.168940638746-2op2hk1430cb34lai84dr6gj9a86aava</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCcqDeUK7huqRxbDC-jKvWyiMHVXcMPJK8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>168940638746</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.geeksdobyte.RM-Wedding</string>
+	<key>PROJECT_ID</key>
+	<string>rm-wedding</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rm-wedding.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:168940638746:ios:3ece825766d492a4</string>
+	<key>DATABASE_URL</key>
+	<string>https://rm-wedding.firebaseio.com</string>
+</dict>
+</plist>

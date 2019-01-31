@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CD9C51222126D45D5B996D1 /* Pods_RM_Wedding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09564F2F3EEBBAC201F5692E /* Pods_RM_Wedding.framework */; };
+		A3046956217ECF3400743E8C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3046955217ECF3400743E8C /* CreateViewController.swift */; };
+		A304695821800A0C00743E8C /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304695721800A0C00743E8C /* GalleryViewController.swift */; };
+		A304695A21800C3C00743E8C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304695921800C3C00743E8C /* CameraViewController.swift */; };
+		A304695C21800F7D00743E8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304695B21800F7D00743E8C /* Constants.swift */; };
+		A304695E2180156E00743E8C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A304695D2180156E00743E8C /* API.swift */; };
+		A30469622180160C00743E8C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30469612180160C00743E8C /* Post.swift */; };
+		A30469642180168100743E8C /* PostAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30469632180168100743E8C /* PostAPI.swift */; };
+		A30469662180187500743E8C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30469652180187500743E8C /* HomeTableViewCell.swift */; };
 		A3B0EE1E217D01AD002D7814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0EE1D217D01AD002D7814 /* AppDelegate.swift */; };
 		A3B0EE20217D01AD002D7814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0EE1F217D01AD002D7814 /* ViewController.swift */; };
 		A3B0EE23217D01AD002D7814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B0EE21217D01AD002D7814 /* Main.storyboard */; };
 		A3B0EE25217D01B0002D7814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B0EE24217D01B0002D7814 /* Assets.xcassets */; };
 		A3B0EE28217D01B0002D7814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B0EE26217D01B0002D7814 /* LaunchScreen.storyboard */; };
+		A3B0EE30217D08D8002D7814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3B0EE2F217D08D8002D7814 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09564F2F3EEBBAC201F5692E /* Pods_RM_Wedding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RM_Wedding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B022F1CD9FEAAE2F5152D81 /* Pods-RM Wedding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RM Wedding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RM Wedding/Pods-RM Wedding.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD3C457AE8D10577E4A403C /* Pods-RM Wedding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RM Wedding.release.xcconfig"; path = "Pods/Target Support Files/Pods-RM Wedding/Pods-RM Wedding.release.xcconfig"; sourceTree = "<group>"; };
+		A3046955217ECF3400743E8C /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		A304695721800A0C00743E8C /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		A304695921800C3C00743E8C /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A304695B21800F7D00743E8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A304695D2180156E00743E8C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		A30469612180160C00743E8C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A30469632180168100743E8C /* PostAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAPI.swift; sourceTree = "<group>"; };
+		A30469652180187500743E8C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		A3B0EE1A217D01AD002D7814 /* RM Wedding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RM Wedding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B0EE1D217D01AD002D7814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3B0EE1F217D01AD002D7814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,7 @@
 		A3B0EE24217D01B0002D7814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3B0EE27217D01B0002D7814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3B0EE29217D01B0002D7814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B0EE2F217D08D8002D7814 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD9C51222126D45D5B996D1 /* Pods_RM_Wedding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		768D65532CBC8D59B413EEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09564F2F3EEBBAC201F5692E /* Pods_RM_Wedding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3B0EE11217D01AD002D7814 = {
 			isa = PBXGroup;
 			children = (
 				A3B0EE1C217D01AD002D7814 /* RM Wedding */,
 				A3B0EE1B217D01AD002D7814 /* Products */,
+				C6317D46990EBC1CDA5CA85A /* Pods */,
+				768D65532CBC8D59B413EEC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,32 @@
 		A3B0EE1C217D01AD002D7814 /* RM Wedding */ = {
 			isa = PBXGroup;
 			children = (
+				A3B0EE2F217D08D8002D7814 /* GoogleService-Info.plist */,
 				A3B0EE1D217D01AD002D7814 /* AppDelegate.swift */,
 				A3B0EE1F217D01AD002D7814 /* ViewController.swift */,
 				A3B0EE21217D01AD002D7814 /* Main.storyboard */,
 				A3B0EE24217D01B0002D7814 /* Assets.xcassets */,
 				A3B0EE26217D01B0002D7814 /* LaunchScreen.storyboard */,
 				A3B0EE29217D01B0002D7814 /* Info.plist */,
+				A3046955217ECF3400743E8C /* CreateViewController.swift */,
+				A304695721800A0C00743E8C /* GalleryViewController.swift */,
+				A304695921800C3C00743E8C /* CameraViewController.swift */,
+				A304695B21800F7D00743E8C /* Constants.swift */,
+				A304695D2180156E00743E8C /* API.swift */,
+				A30469612180160C00743E8C /* Post.swift */,
+				A30469632180168100743E8C /* PostAPI.swift */,
+				A30469652180187500743E8C /* HomeTableViewCell.swift */,
 			);
 			path = "RM Wedding";
+			sourceTree = "<group>";
+		};
+		C6317D46990EBC1CDA5CA85A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B022F1CD9FEAAE2F5152D81 /* Pods-RM Wedding.debug.xcconfig */,
+				7FD3C457AE8D10577E4A403C /* Pods-RM Wedding.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3B0EE2C217D01B0002D7814 /* Build configuration list for PBXNativeTarget "RM Wedding" */;
 			buildPhases = (
+				24025C13219BA39C30B7963D /* [CP] Check Pods Manifest.lock */,
 				A3B0EE16217D01AD002D7814 /* Sources */,
 				A3B0EE17217D01AD002D7814 /* Frameworks */,
 				A3B0EE18217D01AD002D7814 /* Resources */,
+				AE1139513FCDF1590F864E99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B0EE28217D01B0002D7814 /* LaunchScreen.storyboard in Resources */,
+				A3B0EE30217D08D8002D7814 /* GoogleService-Info.plist in Resources */,
 				A3B0EE25217D01B0002D7814 /* Assets.xcassets in Resources */,
 				A3B0EE23217D01AD002D7814 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +184,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24025C13219BA39C30B7963D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RM Wedding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1139513FCDF1590F864E99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RM Wedding/Pods-RM Wedding-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RM Wedding/Pods-RM Wedding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3B0EE16217D01AD002D7814 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3B0EE20217D01AD002D7814 /* ViewController.swift in Sources */,
+				A304695A21800C3C00743E8C /* CameraViewController.swift in Sources */,
+				A30469642180168100743E8C /* PostAPI.swift in Sources */,
+				A304695821800A0C00743E8C /* GalleryViewController.swift in Sources */,
+				A30469622180160C00743E8C /* Post.swift in Sources */,
 				A3B0EE1E217D01AD002D7814 /* AppDelegate.swift in Sources */,
+				A30469662180187500743E8C /* HomeTableViewCell.swift in Sources */,
+				A3046956217ECF3400743E8C /* CreateViewController.swift in Sources */,
+				A304695C21800F7D00743E8C /* Constants.swift in Sources */,
+				A304695E2180156E00743E8C /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +393,7 @@
 		};
 		A3B0EE2D217D01B0002D7814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B022F1CD9FEAAE2F5152D81 /* Pods-RM Wedding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +412,7 @@
 		};
 		A3B0EE2E217D01B0002D7814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD3C457AE8D10577E4A403C /* Pods-RM Wedding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
